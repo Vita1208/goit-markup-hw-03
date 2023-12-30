@@ -8,8 +8,8 @@ a{
 }
 ul, ol{
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 p,
 h1,
@@ -18,9 +18,10 @@ h3,
 h4,
 h5,
 h6{
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
 }
+
 img{
     display: block;
 }
@@ -218,8 +219,9 @@ color: #ffffff;
 .portfolio{
     padding-top: 120px;
     padding-bottom: 120px;
-    margin-bottom: 8px;
+    
 }
+
 .section-portfolio{
 color:  #2E2F42;
     text-align: center;
@@ -236,6 +238,7 @@ color:  #2E2F42;
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
+    
 }
 .portfolio-list-item{
     color: #2E2F42;
@@ -251,8 +254,7 @@ color:  #2E2F42;
     border: 1px solid #e7e9fc;
     border-top: none;
     width: calc((100% - 48px) / 3);
-    margin-bottom: 8px;
-   
+  
 }
 .portfolio-item{
     color: #2E2F42;
@@ -260,12 +262,15 @@ color:  #2E2F42;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
+
     }
 .portfolio-text{
     color: #434455;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        
     }
    
 .footer{
