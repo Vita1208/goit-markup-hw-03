@@ -24,11 +24,13 @@ h6{
 
 img{
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 .container{
     max-width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 .header{
     border-bottom: 1px solid #e7e9fc;
@@ -37,7 +39,6 @@ img{
 .header-container{
     display: flex;
     align-self: center;
-    padding: 24px 0;
     border-bottom: 1px solid #E7E9FC;
 }
 .navigation{
@@ -68,6 +69,7 @@ padding: 24px 0;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 } 
 .header-list{
     display: flex;
@@ -90,6 +92,7 @@ color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .list-address-item:hover,
 .list-address-item:focus{
@@ -156,15 +159,13 @@ color: #ffffff;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    width: calc((100% - 72px) / 4);
-  
 }
 .advantages-item-text{
     color: #434455;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-  
+        width: calc((100% - 72px) / 4);
 }
 .title{
     background-color: #F4F4FD;
@@ -175,7 +176,7 @@ color: #ffffff;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;  
-    width: calc((100% - 72px) / 4);
+    
 }
 .team-title{
         color: #2e2f42;
@@ -186,18 +187,20 @@ color: #ffffff;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         margin-bottom: 72px;
-      }
+}
 
 .list-team{
     background-color: #FFFFFF;
     display: inline-flex;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 8px;
+   
   
 }
 .name-proffecion{
     padding: 32px 0;
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 .section-team-name{
         color: #2E2F42;
@@ -206,6 +209,7 @@ color: #ffffff;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
 }
      
 .section-team-proffecion{
@@ -270,8 +274,7 @@ color:  #2E2F42;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        
-    }
+}
    
 .footer{
         background-color: #2e2f42;
