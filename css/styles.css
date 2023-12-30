@@ -151,6 +151,7 @@ color: #ffffff;
  .
  .light{
     padding: 120px 0;
+    width: calc((100% - 72px) / 4);
 }
 
  .advantages-list{
@@ -170,7 +171,7 @@ color: #ffffff;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        width: calc((100% - 72px) / 4);
+ 
 }
 .title{
     background-color: #F4F4FD;
@@ -198,10 +199,10 @@ color: #ffffff;
     display: inline-flex;
     flex-direction: column;
     text-align: center;
+    border-radius: 0px 0px 4px 4px;
 }
 .name-proffecion{
     padding: 32px 0;
-    border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
 }
 .section-team-name{
