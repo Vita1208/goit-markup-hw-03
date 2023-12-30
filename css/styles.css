@@ -21,12 +21,12 @@ h6{
     margin-top: 0;
     margin-bottom: 0;
 }
-.img{
+img{
     display: block;
 }
 .container{
     max-width: 1158px;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 .header{
@@ -54,9 +54,11 @@ h6{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+  
 }
 .logo-part{
 color:#2E2F42;
+padding: 24px 0;
 
 }
 .header-list{
@@ -94,10 +96,11 @@ color: #404BBF;
 } 
 .hero{
    background-color: #2e2f42;
+   padding: 188px 0;
 }
 .hero-container{
     background-color: #2e2f42;
-    padding: 188px 0;
+    
     
 }
 .hero-title{
@@ -135,14 +138,12 @@ color: #ffffff;
     background-color: #404BBF;
  }
  .visually-hidden{
-    display: block;
+    display: none;
  }
  .advantages-list{
     display: flex;
     gap: 24px;
     padding: 120px 0;
-    min-width: 264px;
-
  }
 .advantages-subtitle{
     color: #2E2F42;
@@ -150,8 +151,8 @@ color: #ffffff;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
 }
 .advantages-item-text{
     color: #434455;
@@ -159,19 +160,18 @@ color: #ffffff;
         line-height: 1.5;
         letter-spacing: 0.02em;
         margin-top: 32px;
-  
-     
 }
 .title{
     background-color: #F4F4FD;
-    padding-top: 240px;
+    padding: 120px 0;
 }
 .title-list{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin-top: 102px;
-    padding-bottom: 120px;
+   
+
+    
 }
 .team-title{
         color: #2e2f42;
@@ -181,6 +181,7 @@ color: #ffffff;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
     
     }
 
@@ -192,6 +193,11 @@ color: #ffffff;
     text-align: center;
     gap: 32px;
   
+}
+.name-proffecion{
+    padding: 32px 0;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .section-team-name{
         color: #2E2F42;
@@ -212,6 +218,10 @@ color: #ffffff;
         letter-spacing: 0.02em;
         gap: 32px;
 }
+.portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .section-portfolio{
 color:  #2E2F42;
     text-align: center;
@@ -221,16 +231,14 @@ color:  #2E2F42;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-bottom: 72px;
     padding: 120px 0;
+    margin-bottom: 8px;
 }
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin: 0 71px 72px 71px;
-    
-    
+    row-gap: 48px;
 }
 .portfolio-list-item{
     color: #2E2F42;
@@ -241,7 +249,7 @@ color:  #2E2F42;
         letter-spacing:0.02em;
         text-transform: capitalize;
         border: 1px solid #E7E9FC;  
-        margin-bottom: 48px;
+        width: calc((100% - 48px) / 3);
 }
 .dodatok{
     padding: 32px 16px;
